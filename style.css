@@ -3,9 +3,9 @@
         max-width: 550pt;
         padding: 50pt 50pt 50% 150pt;
     }
-    .announce {
-        margin-left: 36pt;
-        margin-right: 30pt;
+    .announcement {
+        padding-left: 36pt;
+        padding-right: 30pt;
     }
 }
 @media only screen and (max-width: 800pt) and (min-width: 650pt) {
@@ -13,9 +13,9 @@
         max-width: 500pt;
         padding: 25pt 25pt 100% 75pt;
     }
-    .announce {
-        margin-left: 24pt;
-        margin-right: 18pt;
+    .announcement {
+        padding-left: 24pt;
+        padding-right: 18pt;
     }
 }
 @media only screen and (max-width: 650pt) and (min-width: 500pt) {
@@ -23,9 +23,9 @@
         max-width: 400pt;
         padding: 25pt 25pt 100% 25pt;
     }
-    .announce {
-        margin-left: 21pt;
-        margin-right: 15pt;
+    .announcement {
+        padding-left: 21pt;
+        padding-right: 15pt;
     }
 }
 @media only screen and (max-width: 500pt) {
@@ -33,9 +33,9 @@
         max-width: 90%;
         padding: 5% 0% 100% 5%;
     }
-    .announce {
-        margin-left: 18pt;
-        margin-right: 12pt;
+    .announcement {
+        padding-left: 18pt;
+        padding-right: 12pt;
     }
 }
 
@@ -126,8 +126,6 @@ h2 {
     border-radius: 10px;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
-}
-.subannouncement {
     padding-top: 7px;
     padding-bottom: 7px;
 }
