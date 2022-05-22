@@ -89,7 +89,8 @@ h2 {
 }
 .ryan {
 /*     color: #47f; */
-    color: #7289da;
+/*     color: #7289da; */
+    color: rgb(0, 175, 244);
 }
 .scene {
     font-weight: bold;
