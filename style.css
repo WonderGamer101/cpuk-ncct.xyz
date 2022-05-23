@@ -73,8 +73,19 @@ h2 {
     font-size: 16pt;
     padding-bottom: 6pt;
 }
+h3 {
+    font-family: "Arial";
+    color: #dcddde;
+    padding-top: 18pt;
+    font-size: 14pt;
+    text-align: center;
+    padding-bottom: 4pt;
+}
 
 
+.very {
+    margin-bottom: 3em;
+}
 .text {
     margin-bottom: 1.5em;
 }
@@ -86,6 +97,7 @@ h2 {
 }
 .prism {
     font-style: italic;
+    color: #fff;
 }
 .ryan {
 /*     color: #47f; */
@@ -108,6 +120,9 @@ h2 {
     margin-top: 1em;
     border-left: 2px solid #dcddde;
     padding-left: 5px;
+}
+.vs {
+    padding-left: 4em;
 }
 .break {
     overflow: hidden;
