@@ -64,25 +64,28 @@ h1 {
     font-family: "Arial";
     color: #dcddde;
     font-size: 20pt;
-    padding-bottom: 18pt;
+    margin-bottom: 18pt;
 }
 h2 {
     font-family: "Arial";
     color: #dcddde;
-    padding-top: 18pt;
     font-size: 16pt;
-    padding-bottom: 6pt;
+    margin-top: 18pt;
+    margin-bottom: 6pt;
 }
 h3 {
     font-family: "Arial";
     color: #dcddde;
-    padding-top: 18pt;
     font-size: 14pt;
     text-align: center;
-    padding-bottom: 4pt;
+    margin-top: 6em;
+    margin-bottom: 4pt;
 }
 
 
+.much {
+    margin-bottom: 10em;
+}
 .very {
     margin-bottom: 3em;
 }
@@ -98,11 +101,58 @@ h3 {
 .prism {
     font-style: italic;
     color: #fff;
+    font-size: 13pt;
+}
+.white {
+    color: #fff;
 }
 .ryan {
 /*     color: #47f; */
 /*     color: #7289da; */
     color: rgb(0, 175, 244);
+}
+.nagit {
+/*     color: rgba(255,255,255,0.5); */
+    background: linear-gradient(to right, transparent, 30%, black);
+    display: inline-block;
+    transform: skew(-7deg);
+    padding-right: 0.5em;
+}
+.nagit1 {
+    color: rgba(220,221,222,1);
+}
+.nagit2 {
+    color: rgba(220,221,222,0.4);
+}
+.nagit3 {
+    color: rgba(220,221,222,0.2);
+}
+.nagit4 {
+    color: rgba(220,221,222,0.1);
+}
+.nagit5 {
+    color: rgba(220,221,222,0.05);
+}
+.nagit6 {
+    color: rgba(220,221,222,0);
+}
+/*.nagit2 {
+    background-clip: text;
+    -webkit-background-text: text;
+    color: transparent;
+    background: linear-gradient(to right, white, 40%, black);
+    display: inline-block;
+    transform: skew(7deg);
+}*/
+.nagito {
+    color: rgba(0,0,0,0);
+    background-color: black;
+    display: inline-block;
+    transform: skew(-7deg);
+}
+.unskew {
+    transform: skew(7deg);
+    display: inline-block;
 }
 .scene {
     font-weight: bold;
@@ -146,6 +196,9 @@ h3 {
     padding-bottom: 7px;
 }
 
+.nelsonimg {
+    max-width: 73px;
+}
 .nelson {
     background-color: #36393e;
     border: 3px solid #282b30;
@@ -158,4 +211,9 @@ h3 {
     display: grid;
     grid-template-columns: 80pt auto;
     margin-bottom: 1.5em;
+}
+
+.parts {
+    margin-top: 6em;
+    text-align: center;
 }
